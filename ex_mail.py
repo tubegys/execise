@@ -8,7 +8,8 @@ sender = "tubepython@126.com"
 receiver1 = "tubepython@126.com"
 receiver2 = "Yunsheng.Guan@dellteam.com"
 receivers = [receiver1, receiver2]
-test = None 
+test = None
+testPR = 11
 
 def mail():
     ret = True
