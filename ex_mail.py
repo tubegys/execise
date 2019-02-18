@@ -14,7 +14,7 @@ testPR = 11
 def mail():
     ret = True
     try:
-        msg = MIMEText(mailtext, "plain", "utf-8")
+        msg = MIMEText("aaa", "plain", "utf-8")
         msg['From'] = formataddr(["gys", sender])
         msg['To'] = formataddr(["gys_receiver", receiver1])
         msg['To'] = formataddr(["gys_receiver", receiver2])
